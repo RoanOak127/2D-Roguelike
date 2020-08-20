@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         boardScript.SetupScene(level);
     }
 
-    void gameOver()
+    public void GameOver()
     {
         enabled = false;
     }

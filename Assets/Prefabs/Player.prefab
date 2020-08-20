@@ -162,3 +162,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b6824f8fe1250e4bb99b5ef27a11208, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  wallDamage: 1
+  pointsPerFood: 10
+  pointsPerSoda: 20
+  restartLevelDelay: 1
