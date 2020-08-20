@@ -20,23 +20,7 @@ public class GameManager : MonoBehaviour
     private bool enemiesMoving;
     private bool doingSetUp;
 
-    /*
-   void OnLevelFinishedLoading(Scene scene, LoadSceneMode mode)
-    {
-        level++;
-        InitGame();
-    }
-
-    void OnEnable()
-    {
-        SceneManager.sceneLoaded += OnLevelFinishedLoading;
-    }
-
-    private void OnDisable()
-    {
-        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
-    }
-    */
+ 
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     static public void CallbackInitialization()
     {
